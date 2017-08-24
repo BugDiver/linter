@@ -1,0 +1,14 @@
+os:
+  - osx
+language: go
+go:
+  - 1.8
+
+before_install:
+  - ./setup.sh
+install:
+  - go get github.com/tools/godep
+  - godep restore
+script:
+  - go run build/make.go
+  - go run build/make.go --distro
