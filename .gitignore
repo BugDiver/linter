@@ -2,3 +2,4 @@ bin/
 testData/
 .DS_Store
 *.dmg
+*.pkg

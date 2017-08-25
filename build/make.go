@@ -6,7 +6,6 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
-	"runtime"
 	"strings"
 )
 
@@ -66,32 +65,9 @@ func main() {
 
 func createDarwinPackage() {
 	runProcess(packagesBuild, "-v", darwinPackageProject)
+	runProcess("mv", "build/deploy", "deploy")
 }
 
 func getGaugeExecutablePath(file string) string {
-	return filepath.Join(getBinDir(), getExecutableName(file))
-}
-
-func getBinDir() string {
-	return filepath.Join("bin", fmt.Sprintf("%s_%s", getGOOS(), getGOARCH()))
-}
-
-func getExecutableName(file string) string {
-	return file
-}
-
-func getGOARCH() string {
-	goArch := os.Getenv(GOARCH)
-	if goArch == "" {
-		goArch = runtime.GOARCH
-	}
-	return goArch
-}
-
-func getGOOS() string {
-	goOS := os.Getenv(GOOS)
-	if goOS == "" {
-		goOS = runtime.GOOS
-	}
-	return goOS
+	return filepath.Join("bin", "linter")
 }

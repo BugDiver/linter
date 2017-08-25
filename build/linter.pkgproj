@@ -458,34 +458,17 @@
 									<array>
 										<dict>
 											<key>CHILDREN</key>
-											<array>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>GID</key>
-													<integer>20</integer>
-													<key>PATH</key>
-													<string>../bin/darwin_amd64/linter</string>
-													<key>PATH_TYPE</key>
-													<integer>1</integer>
-													<key>PERMISSIONS</key>
-													<integer>493</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>502</integer>
-												</dict>
-											</array>
+											<array/>
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>bin</string>
+											<string>../bin</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
-											<integer>2</integer>
+											<integer>3</integer>
 											<key>UID</key>
 											<integer>502</integer>
 										</dict>
@@ -755,13 +738,6 @@
 				<string>deploy</string>
 				<key>PATH_TYPE</key>
 				<integer>1</integer>
-			</dict>
-			<key>CERTIFICATE</key>
-			<dict>
-				<key>NAME</key>
-				<string>Developer ID Application: ThoughtWorks (LL62P32G5C)</string>
-				<key>PATH</key>
-				<string>~/Library/Keychains/login.keychain</string>
 			</dict>
 			<key>EXCLUDED_FILES</key>
 			<array>
