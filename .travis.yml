@@ -8,6 +8,7 @@ before_install:
   - ./setup.sh
 
 script:
+  - go get ./...
   - go run build/make.go
   - go run build/make.go --distro
   - go run build/make.go --deploy
