@@ -533,9 +533,9 @@
 				<key>FOLLOW_SYMBOLIC_LINKS</key>
 				<true/>
 				<key>IDENTIFIER</key>
-				<string>com.thoughtworks.steplinter.pkg</string>
+				<string>com.thoughtworks.stepspider.pkg</string>
 				<key>NAME</key>
-				<string>linter</string>
+				<string>spider</string>
 				<key>OVERWRITE_PERMISSIONS</key>
 				<false/>
 				<key>VERSION</key>
@@ -708,7 +708,7 @@
 						<key>LANGUAGE</key>
 						<string>English</string>
 						<key>VALUE</key>
-						<string>linter</string>
+						<string>spider</string>
 					</dict>
 				</array>
 			</dict>
@@ -908,7 +908,7 @@
 				</dict>
 			</array>
 			<key>NAME</key>
-			<string>linter</string>
+			<string>spider</string>
 		</dict>
 	</dict>
 	<key>TYPE</key>

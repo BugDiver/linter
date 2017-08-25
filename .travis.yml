@@ -10,3 +10,4 @@ before_install:
 script:
   - go run build/make.go
   - go run build/make.go --distro
+  - go run build/make.go --deploy
